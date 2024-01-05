@@ -1,7 +1,8 @@
 repo_name: sachajw/generate-k8s-yaml
 report_id: 4e4855360a5dd9bf09fd12309499e7b5
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-16T10:40:26+00:00'
+timestamp: '2024-01-05T08:38:50+00:00'
 requested_by: Piotr1215
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/sachajw/generate-k8s-yaml
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/sachajw/generate-k8s-yaml
   detection_source: Repo Metadata
 - name: Node.js
   description: A platform built on Chrome's JavaScript runtime for easily building
@@ -36,7 +39,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: cdk8s/package.json
+  detection_source_url: https://github.com/sachajw/generate-k8s-yaml/blob/master/.devcontainer/Dockerfile
+  detection_source: ".devcontainer/Dockerfile"
   last_updated_by: decoder
   last_updated_on: 2021-10-10 13:11:53.000000000 Z
 - name: Docker
@@ -48,6 +52,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/sachajw/generate-k8s-yaml
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -57,6 +62,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/sachajw/generate-k8s-yaml
   detection_source: Repo Metadata
 - name: Jest
   description: Painless JavaScript Unit Testing
@@ -68,7 +74,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: cdk8s/package-lock.json
+  detection_source_url: https://github.com/sachajw/generate-k8s-yaml/blob/master/cdk8s/package-lock.json
   detection_source: cdk8s/package.json
   last_updated_by: decoder
   last_updated_on: 2021-10-10 13:11:53.000000000 Z
@@ -80,6 +86,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/sachajw/generate-k8s-yaml/blob/master/cdk8s/package.json
   detection_source: cdk8s/package.json
   last_updated_by: decoder
   last_updated_on: 2021-10-10 13:11:53.000000000 Z
@@ -93,7 +100,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: cdk8s/package-lock.json
+  detection_source_url: https://github.com/sachajw/generate-k8s-yaml/blob/master/cdk8s/package-lock.json
   detection_source: cdk8s/package.json
   last_updated_by: decoder
   last_updated_on: 2021-10-10 13:11:53.000000000 Z
@@ -107,7 +114,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: cdk8s/package-lock.json
+  detection_source_url: https://github.com/sachajw/generate-k8s-yaml/blob/master/cdk8s/package-lock.json
   detection_source: cdk8s/package.json
   last_updated_by: decoder
   last_updated_on: 2021-10-10 13:11:53.000000000 Z
@@ -122,7 +129,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: cdk8s/package-lock.json
+  detection_source_url: https://github.com/sachajw/generate-k8s-yaml/blob/master/cdk8s/package-lock.json
   detection_source: cdk8s/package.json
   last_updated_by: decoder
   last_updated_on: 2021-10-10 13:11:53.000000000 Z
